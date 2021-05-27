@@ -1,0 +1,27 @@
+body {
+  background-color: blue;
+}
+
+hr {
+  /* background-color: white; */
+  border-style: none;
+  border-top-style: dotted;
+  /* height: 0px; */
+  width: 10%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+/* commenting out all css (internal and inline) in the html file is negated by this file */
+
+.heading {
+  color: red;
+}
+
+/* .class selectors */
+
+#first_text {
+  color: purple;
+}
+
+/* #ID selectors */
