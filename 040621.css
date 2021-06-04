@@ -1,0 +1,59 @@
+body {
+  background-color: none;
+  margin: 0;
+}
+
+
+/* CSS Box Model */
+
+/* .top-container {
+  width: 200px;
+  height: 200px;
+}
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+} */
+
+/* Challenge:
+-3 boxes 200 x 200px;
+-1st box: 10px border & 20px padding &
+-2nd box: 20px border
+-3rd box: 10px border */
+
+.top-container {
+  width: 140px;
+  height: 140px;
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+
+.middle-container {
+  background-color: red;
+  width: 160px;
+  height: 160px;
+  border: 20px;
+  margin-left:200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.bottom-container {
+  background-color: yellow;
+  width: 180px;
+  height: 180px;
+  border: 10px;
+  margin-left: 400px;
+  border-style: solid;
+  border-color: black;
+}
